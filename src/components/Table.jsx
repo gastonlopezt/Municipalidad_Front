@@ -1,4 +1,4 @@
-import ModalNew from "./modalNew.jsx"
+import ModalNew from "./ModalNew.jsx"
 import { useState, useEffect } from "react"
 import { useUser } from "../context/UserContext"
 import EditModal from "./EditModal.jsx"
