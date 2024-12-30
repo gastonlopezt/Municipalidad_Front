@@ -1,8 +1,8 @@
-import ModalNew from "./modalNew"
+import ModalNew from "./modalNew.jsx"
 import { useState, useEffect } from "react"
 import { useUser } from "../context/UserContext"
-import EditModal from "./EditModal"
-import DeleteModal from "./DeleteModal"
+import EditModal from "./EditModal.jsx"
+import DeleteModal from "./DeleteModal.jsx"
 import { ToastContainer } from "react-toastify"
 
 function Table() {
