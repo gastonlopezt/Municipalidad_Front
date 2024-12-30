@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import Users from "./pages/users"
 import { UserContextProvider } from "./context/UserContext"
+import Users from "./Pages/Users"
 
 function App() {
 
