@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Formik, Field, Form, ErrorMessage } from "formik"
 import { newUser } from "../api/newUsers"
 import { useUser } from "../context/UserContext"
@@ -43,7 +42,7 @@ function ModalNew() {
             })
             setModal(false)
             await getUsers()
-            console.log('llegue')
+            // console.log('llegue')
         } catch (error) {
             toast.error("Ocurrió un error al crear el usuario.");
             

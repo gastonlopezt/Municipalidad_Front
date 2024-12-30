@@ -1,6 +1,7 @@
 const url = import.meta.env.VITE_API_URL
 
 export const getUsersData = async () => {
+    console.log(url)
 try {
     const res = await fetch(url)
     const data = await res.json()
